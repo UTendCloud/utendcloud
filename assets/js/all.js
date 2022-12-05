@@ -69,4 +69,24 @@ function init() {
   toText.value = initTo;
   bodyText.value = initBody;
 }
+
+function sendMail() {
+  var params = {
+    name: document.getElementById("name").value,
+    email: document.getElementById("email").value,
+    tel: document.getElementById("tel").value,
+    message: document.getElementById("message").value
+  };
+  var serviceID = "service_653aux3";
+  var templateID = "template_7snqhfg";
+  emailjs.send(serviceID, templateID, params).then(function (res) {
+    document.getElementById("name").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("message").value = "";
+    console.log(res);
+    alert("成功提交資料");
+  })["catch"](function (err) {
+    return console.log(err);
+  });
+}
 //# sourceMappingURL=all.js.map
