@@ -1,0 +1,46 @@
+.about {
+    &-list {
+        margin-top: 64px;
+        margin-bottom: 100px;
+        @include pad {
+            margin-bottom: 48px;
+        }
+        @include mobile {
+            margin-bottom: 36px;
+        }
+    }
+    &-text {
+        padding: 0 48px;
+        p {
+            line-height: 30px;
+            padding-top: 36px;
+            @include mobile {
+                padding-bottom: 48px;
+            }
+        }
+        h3 {
+            font-size: 36px;
+        }
+    }
+    &-img {
+        img {
+            width: 100%;
+            height: 400px;
+        }
+    }
+    &-idea {
+        text-align: center;
+        p {
+            font-size: 24px;
+            @include mobile {
+                padding-bottom: 48px;
+            }
+        }
+    }
+}
+
+.mb-10 {
+    @include pad {
+        margin-bottom: 100px;
+    }
+}

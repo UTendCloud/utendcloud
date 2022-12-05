@@ -1,0 +1,49 @@
+.contact {
+    &-box {
+        margin-top: 80px;
+        margin-bottom: 64px;
+        @include pad {
+            margin-bottom: 0;
+        }
+    }
+    &-form {
+        input {
+            border-radius: 10px;
+        }
+        textarea {
+            border-radius: 10px;
+        }
+        h4 {
+            font-size: 20px;
+            color: #FFFFFF;
+            @include mobile {
+                font-size: 16px;
+            }
+        }
+        &-title {
+            background-color: $primary;
+            padding: 28px 0;
+            font-size: 28px;
+            color: #FFFFFF;
+        }
+        &-content {
+            background-image: url(../images/contact-banner.png);
+            background-size: cover;
+            opacity: .9;
+            margin-bottom: 96px;
+            @include pad {
+                margin-bottom: 64px;
+            }
+            @include mobile {
+                margin-bottom: 36px;
+            }
+        }
+    }
+}
+
+.form-group {
+    width: 50%;
+    @include mobile {
+        width: 100%;
+    }
+}

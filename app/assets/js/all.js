@@ -28,7 +28,6 @@ $(document).ready(function(){
 	});
 });
 
-
 //宣告預設表單內容為空 （你想要的話也可以加東西）
 var initSubject='',initBody='';
 //按下傳送按鈕後執行
@@ -52,6 +51,27 @@ function init(){
     subText.value=initSubject;
     toText.value=initTo;
     bodyText.value=initBody;
+}
+
+function sendMail() {
+    var params = {
+        name: document.getElementById("name").value,
+        email: document.getElementById("email").value,
+        tel: document.getElementById("tel").value,
+        message: document.getElementById("message").value,
+    };
+    const serviceID = "service_653aux3";
+    const templateID = "template_7snqhfg";
+
+    emailjs.send(serviceID, templateID, params)
+        .then(res=>{
+            document.getElementById("name").value = "";
+            document.getElementById("email").value = "";
+            document.getElementById("message").value = "";
+            console.log(res);
+            alert("成功提交資料")
+    })
+    .catch(err=>console.log(err));
 }
 
 
