@@ -10940,7 +10940,7 @@ a {
       .about-text p {
         padding-bottom: 48px; } }
   .about-text h3, .about-text .h3 {
-    font-size: 36px; }
+    font-size: 40px; }
 
 .about-img img {
   width: 100%;
@@ -10954,8 +10954,13 @@ a {
       .about-idea p {
         padding-bottom: 48px; } }
 
-@media (max-width: 992px) {
-  .mb-10 {
-    margin-bottom: 100px; } }
+.mb-10 {
+  margin-bottom: 120px; }
+  @media (max-width: 992px) {
+    .mb-10 {
+      margin-bottom: 100px; } }
+  @media (max-width: 767px) {
+    .mb-10 {
+      margin-bottom: 48px; } }
 
 /*# sourceMappingURL=all.css.map */
