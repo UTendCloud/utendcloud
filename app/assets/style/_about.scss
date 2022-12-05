@@ -19,7 +19,7 @@
             }
         }
         h3 {
-            font-size: 36px;
+            font-size: 40px;
         }
     }
     &-img {
@@ -40,7 +40,11 @@
 }
 
 .mb-10 {
+    margin-bottom: 120px;
     @include pad {
         margin-bottom: 100px;
+    }
+    @include mobile {
+        margin-bottom: 48px;
     }
 }
