@@ -10295,7 +10295,8 @@ a {
 
 .index-about {
   margin-top: 64px;
-  margin-bottom: 80px; }
+  margin-bottom: 80px;
+  color: #444444; }
   @media (max-width: 992px) {
     .index-about {
       margin-top: 54px;
@@ -10393,6 +10394,7 @@ a {
       .index-serve-img {
         display: none; } }
   .index-serve-ucrm {
+    color: #444444;
     position: relative;
     right: -80px;
     bottom: -80px;
@@ -10412,6 +10414,7 @@ a {
         bottom: 0;
         margin-bottom: 30px; } }
   .index-serve-ufhir {
+    color: #444444;
     position: relative;
     right: 80px;
     bottom: -80px;
@@ -10431,6 +10434,7 @@ a {
         bottom: 0;
         margin-bottom: 30px; } }
   .index-serve-ubase {
+    color: #444444;
     position: relative;
     right: 80px;
     bottom: 80px;
@@ -10449,6 +10453,7 @@ a {
       .index-serve-ubase {
         bottom: 0; } }
   .index-serve-upose {
+    color: #444444;
     position: relative;
     right: -80px;
     bottom: 80px;
@@ -10506,6 +10511,7 @@ a {
         padding: 16px 0; } }
 
 .index-system {
+  color: #444444;
   border-top: 1px solid transparent;
   max-width: 100%;
   background-image: url(../images/system-banner-1.png);
@@ -10558,6 +10564,7 @@ a {
       font-size: 48px; }
 
 .index-contact {
+  color: #444444;
   padding-top: 64px;
   margin-bottom: 120px; }
   @media (max-width: 992px) {
@@ -10615,7 +10622,7 @@ a {
   .index-contact-list-item {
     font-size: 20px; }
     .index-contact-list-item a {
-      color: #000000; }
+      color: #444444; }
     @media (max-width: 767px) {
       .index-contact-list-item h4, .index-contact-list-item .h4 {
         font-size: 16px; }
@@ -10676,6 +10683,7 @@ a {
           padding: 16px 48px; } }
 
 .news-main-item {
+  color: #444444;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -10730,8 +10738,11 @@ a {
       transition: .6s; }
 
 .contact-box {
+  color: #444444;
   margin-top: 80px;
   margin-bottom: 64px; }
+  .contact-box a {
+    color: #444444; }
   @media (max-width: 992px) {
     .contact-box {
       margin-bottom: 0; } }
@@ -10774,6 +10785,7 @@ a {
       width: 100%; } }
 
 .about-list {
+  color: #444444;
   margin-top: 64px;
   margin-bottom: 100px; }
   @media (max-width: 992px) {
