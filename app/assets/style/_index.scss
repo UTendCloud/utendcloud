@@ -65,6 +65,7 @@
     &-about {
         margin-top: 64px;
         margin-bottom: 80px;
+        color: #444444;
         @include pad {
             margin-top: 54px;
             margin-bottom: 48px;
@@ -151,6 +152,7 @@
             }
         }
         &-ucrm {
+            color: #444444;
             position: relative;
             right: -80px;
             bottom: -80px;
@@ -172,6 +174,7 @@
             }
         }
         &-ufhir {
+            color: #444444;
             position: relative;
             right: 80px;
             bottom: -80px;
@@ -193,6 +196,7 @@
             }
         }
         &-ubase {
+            color: #444444;
             position: relative;
             right: 80px;
             bottom: 80px;
@@ -213,6 +217,7 @@
             }
         }
         &-upose {
+            color: #444444;
             position: relative;
             right: -80px;
             bottom: 80px;
@@ -271,6 +276,7 @@
         }
     }
     &-system {
+        color: #444444;
         border-top: 1px solid transparent;
         max-width: 100%;
         background-image: url(../images/system-banner-1.png);
@@ -316,6 +322,7 @@
         }
     }
     &-contact {
+        color: #444444;
         padding-top: 64px;
         margin-bottom: 120px;
         @include pad {
@@ -373,7 +380,7 @@
             &-item {
                 font-size: $text-m;
                 a {
-                    color: #000000;
+                    color: #444444;
                 }
                 @include mobile {
                     h4 {

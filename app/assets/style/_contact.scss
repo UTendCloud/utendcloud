@@ -1,7 +1,11 @@
 .contact {
     &-box {
+        color: #444444;
         margin-top: 80px;
         margin-bottom: 64px;
+        a {
+            color: #444444;
+        }
         @include pad {
             margin-bottom: 0;
         }
