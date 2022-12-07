@@ -10398,7 +10398,7 @@ a {
     position: relative;
     right: -80px;
     bottom: -80px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     border: 2px solid #ccc;
     text-align: center;
     padding-top: 120px;
@@ -10418,7 +10418,7 @@ a {
     position: relative;
     right: 80px;
     bottom: -80px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     border: 2px solid #ccc;
     text-align: center;
     padding-top: 120px;
@@ -10438,7 +10438,7 @@ a {
     position: relative;
     right: 80px;
     bottom: 80px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     border: 2px solid #ccc;
     text-align: center;
     padding-top: 120px;
@@ -10457,7 +10457,7 @@ a {
     position: relative;
     right: -80px;
     bottom: 80px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     border: 2px solid #ccc;
     text-align: center;
     padding: 24px 16px; }
@@ -10755,7 +10755,7 @@ a {
 
 .contact-form h4, .contact-form .h4 {
   font-size: 20px;
-  color: #FFFFFF; }
+  color: #ffffff; }
   @media (max-width: 767px) {
     .contact-form h4, .contact-form .h4 {
       font-size: 16px; } }
@@ -10764,7 +10764,7 @@ a {
   background-color: #3e6bb8;
   padding: 28px 0;
   font-size: 28px;
-  color: #FFFFFF; }
+  color: #ffffff; }
 
 .contact-form-content {
   background-image: url(../images/contact-banner.png);
