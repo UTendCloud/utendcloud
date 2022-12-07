@@ -1,38 +1,38 @@
 .about {
     &-list {
-        color: #444444;
-        margin-top: 64px;
+        color: $black;
+        margin-top: $text-5xl;
         margin-bottom: 100px;
         @include pad {
-            margin-bottom: 48px;
+            margin-bottom: $text-4xl;
         }
         @include mobile {
-            margin-bottom: 36px;
+            margin-bottom: $text-2xl;
         }
     }
     &-text {
-        padding: 0 48px;
+        padding: 0 $text-4xl;
         p {
             line-height: 30px;
-            padding-top: 36px;
+            padding-top: $text-2xl;
             @include pad {
-                line-height: 24px;
+                line-height: $text-l;
             }
             @include mobile {
-                font-size: 14px;
+                font-size: $text-s;
             }
             @include mobile {
-                padding-top: 16px;
-                padding-bottom: 48px;
+                padding-top: $font-size-base;
+                padding-bottom: $text-4xl;
             }
         }
         h3 {
             font-size: 40px;
             @include pad {
-                font-size: 32px;
+                font-size: $text-xl;
             }
             @include mobile {
-                font-size: 28px;
+                font-size: $text-2l;
             }
         }
     }
@@ -51,10 +51,10 @@
     &-idea {
         text-align: center;
         p {
-            font-size: 24px;
+            font-size: $text-l;
             @include mobile {
-                font-size: 20px;
-                padding-bottom: 48px;
+                font-size: $text-m;
+                padding-bottom: $text-4xl;
             }
         }
     }
@@ -65,6 +65,6 @@
         margin-bottom: 100px;
     }
     @include mobile {
-        margin-bottom: 48px;
+        margin-bottom: $text-4xl;
     }
 }

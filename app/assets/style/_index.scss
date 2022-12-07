@@ -34,22 +34,22 @@
             }
             h2 {
                 color: #FFFFFF;
-                font-size: 36px;
+                font-size: $text-2xl;
                 @include pad {
                     font-size: 30px;
                 }
                 @include pad {
-                    font-size: 20px;
+                    font-size: $text-m;
                 }
             }
             a {
-                margin-top: 16px;
+                margin-top: $font-size-base;
                 display: inline-block;
                 background-color: rgb(79, 103, 172);
                 color: #FFFFFF;
-                padding: 8px 32px;
+                padding: 8px $text-xl;
                 @include pad {
-                    font-size: 14px;
+                    font-size: $text-s;
                 }
                 @include mobile {
                     font-size: 12px;
@@ -63,16 +63,16 @@
         }
     }
     &-about {
-        margin-top: 64px;
+        margin-top: $text-5xl;
         margin-bottom: 80px;
         color: #444444;
         @include pad {
             margin-top: 54px;
-            margin-bottom: 48px;
+            margin-bottom: $text-4xl;
         }
         @include mobile {
             margin-top: 40px;
-            margin-bottom: 48px;
+            margin-bottom: $text-4xl;
         }
         &-list {
             @include mobile {
@@ -86,7 +86,7 @@
                 height: auto;
             }
             @include mobile {
-                margin-bottom: 36px;
+                margin-bottom: $text-2xl;
             }
         }
         &-text {
@@ -104,8 +104,8 @@
                 text-align: center;
                 line-height: 30px;
                 @include mobile {
-                    font-size: 14px;
-                    line-height: 28px;
+                    font-size: $text-s;
+                    line-height: $text-2l;
                 }
             }
         }
@@ -124,14 +124,14 @@
         h2 {
             padding-top: 100px;
             text-align: center;
-            font-size: 48px;
+            font-size: $text-4xl;
             @include pad {
                 font-size: 40px;
-                padding-top: 64px;
+                padding-top: $text-5xl;
             }
             @include mobile {
-                padding: 36px 0;
-                font-size: 28px;
+                padding: $text-2xl 0;
+                font-size: $text-2l;
             }
         }
         &-list {
@@ -152,17 +152,17 @@
             }
         }
         &-ucrm {
-            color: #444444;
+            color: $black;
             position: relative;
             right: -80px;
             bottom: -80px;
-            background-color: #FFFFFF;
+            background-color: $white;
             border: 2px solid #ccc;
             text-align: center;
             padding-top: 120px;
-            padding: 24px 16px;
+            padding: $text-l $font-size-base;
             h3 {
-                font-size: 28px;
+                font-size: $text-2l;
             }
             @include pad {
                 right: 0;
@@ -174,17 +174,17 @@
             }
         }
         &-ufhir {
-            color: #444444;
+            color: $black;
             position: relative;
             right: 80px;
             bottom: -80px;
-            background-color: #FFFFFF;
+            background-color: $white;
             border: 2px solid #ccc;
             text-align: center;
             padding-top: 120px;
-            padding: 24px 16px;
+            padding: $text-l $font-size-base;
             h3 {
-                font-size: 28px;
+                font-size: $text-2l;
             }
             @include pad {
                 right: 0;
@@ -196,17 +196,17 @@
             }
         }
         &-ubase {
-            color: #444444;
+            color: $black;
             position: relative;
             right: 80px;
             bottom: 80px;
-            background-color: #FFFFFF;
+            background-color: $white;
             border: 2px solid #ccc;
             text-align: center;
             padding-top: 120px;
-            padding: 24px 16px;
+            padding: $text-l $font-size-base;
             h3 {
-                font-size: 28px;
+                font-size: $text-2l;
             }
             @include pad {
                 right: 0;
@@ -217,16 +217,16 @@
             }
         }
         &-upose {
-            color: #444444;
+            color: $black;
             position: relative;
             right: -80px;
             bottom: 80px;
-            background-color: #FFFFFF;
+            background-color: $white;
             border: 2px solid #ccc;
             text-align: center;
-            padding: 24px 16px;
+            padding: $text-l $font-size-base;
             h3 {
-                font-size: 28px;
+                font-size: $text-2l;
             }
             @include pad {
                 right: 0;
@@ -266,17 +266,17 @@
             color: #FFFFFF;
             width: 600px;
             background-color: rgba(126, 170, 220, 0.5);
-            font-size: 36px;
+            font-size: $text-2xl;
             text-align: center;
-            padding: 20px 0;
+            padding: $text-m 0;
             @include mobile {
-                font-size: 24px;
-                padding: 16px 0;
+                font-size: $text-l;
+                padding: $font-size-base 0;
             }
         }
     }
     &-system {
-        color: #444444;
+        color: $black;
         border-top: 1px solid transparent;
         max-width: 100%;
         background-image: url(../images/system-banner-1.png);
@@ -284,7 +284,7 @@
         height: auto;
         padding-bottom: 80px;
         @include pad {
-            padding-bottom: 36px;
+            padding-bottom: $text-2xl;
         }
         @include mobile {
             background-size: contain;
@@ -314,35 +314,35 @@
             }
             @include mobile {
                 padding: 70px 0;
-                margin-top: 36px;
+                margin-top: $text-2xl;
             }
             h3 {
-                font-size: 48px;
+                font-size: $text-4xl;
             }
         }
     }
     &-contact {
-        color: #444444;
-        padding-top: 64px;
+        color: $black;
+        padding-top: $text-5xl;
         margin-bottom: 120px;
         @include pad {
-            margin-bottom: 36px;
+            margin-bottom: $text-2xl;
         }
         @include mobile {
-            padding-top: 36px;
+            padding-top: $text-2xl;
             margin-bottom: 0;
         }
         h2 {
             text-align: center;
-            font-size: 48px;
-            padding-bottom: 64px;
+            font-size: $text-4xl;
+            padding-bottom: $text-5xl;
             @include pad {
                 font-size: 40px;
-                padding-bottom: 48px;
+                padding-bottom: $text-4xl;
             }
             @include mobile {
-                font-size: 28px;
-                padding-bottom: 24px;
+                font-size: $text-2l;
+                padding-bottom: $text-l;
             }
         }
         &-title {
@@ -369,9 +369,9 @@
         }
         &-list {
             &-title {
-                background-color: #00A8D2;
+                background-color: $secondary;
                 color: $white;
-                font-size: 32px;
+                font-size: $text-xl;
                 box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
                 @include mobile {
                     font-size: $text-l;
@@ -380,14 +380,14 @@
             &-item {
                 font-size: $text-m;
                 a {
-                    color: #444444;
+                    color: $black;
                 }
                 @include mobile {
                     h4 {
                         font-size: $text-base;
                     }
                     p{
-                        font-size: 12px;
+                        font-size: $text-xs;
                     }
                 } 
             }
@@ -406,7 +406,7 @@
             width: 500px;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             @include pad {
-                margin-top: 48px;
+                margin-top: $text-4xl;
                 width: 100%;
                 text-align: center;
             }

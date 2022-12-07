@@ -1,10 +1,10 @@
 .contact {
     &-box {
-        color: #444444;
+        color: $black;
         margin-top: 80px;
-        margin-bottom: 64px;
+        margin-bottom: $text-5xl;
         a {
-            color: #444444;
+            color: $black;
         }
         @include pad {
             margin-bottom: 0;
@@ -18,17 +18,17 @@
             border-radius: 10px;
         }
         h4 {
-            font-size: 20px;
-            color: #FFFFFF;
+            font-size: $text-m;
+            color: $white;
             @include mobile {
-                font-size: 16px;
+                font-size: $font-size-base;
             }
         }
         &-title {
             background-color: $primary;
-            padding: 28px 0;
-            font-size: 28px;
-            color: #FFFFFF;
+            padding: $text-2l 0;
+            font-size: $text-2l;
+            color: $white;
         }
         &-content {
             background-image: url(../images/contact-banner.png);
@@ -36,10 +36,10 @@
             opacity: .9;
             margin-bottom: 96px;
             @include pad {
-                margin-bottom: 64px;
+                margin-bottom: $text-5xl;
             }
             @include mobile {
-                margin-bottom: 36px;
+                margin-bottom: $text-2xl;
             }
         }
     }

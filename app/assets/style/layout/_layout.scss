@@ -15,7 +15,7 @@
     }
 }
 .header {
-    background-color: #3e6bb8;
+    background-color: $primary;
     @include pad {
         padding: 0 39px;
     }
@@ -111,9 +111,9 @@
         &-item {
             a {
                 color: #FFFFFF;
-                font-size: 24px;
+                font-size: $text-l;
                 @include pad {
-                    font-size: 20px;
+                    font-size: $text-m;
                 }
                 &:hover {
                     color: #FFFFFF;
@@ -124,10 +124,10 @@
         }
         &-copyright {
             h3 {
-                font-size: 24px;
+                font-size: $text-l;
                 color: #FFFFFF;
                 @include pad {
-                    font-size: 14px;
+                    font-size: $text-s;
                     text-align: center;
                 }
             }
@@ -212,7 +212,7 @@
 }
 
 .footer {
-    background-color: #3e6bb8;
+    background-color: $primary;
     &-box {
         display: flex;
         justify-content: space-between;

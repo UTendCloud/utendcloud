@@ -13,45 +13,45 @@
             justify-content: center;
             align-items: center;
             height: 360px;
-            font-size: 48px;
+            font-size: $text-4xl;
             color: #FFFFFF;
             @include mobile {
                 height: 260px;
             }
             h3 {
-                padding: 36px 128px;
+                padding: $text-2xl 128px;
                 background-color: rgba(2, 2, 2, 0.4);
                 @include mobile {
-                    font-size: 36px;
-                    padding: 16px 48px;
+                    font-size: $text-2xl;
+                    padding: $font-size-base $text-4xl;
                 }
             }
         }
     }
     &-main {
         &-item {
-            color: #444444;
+            color: $black;
             flex-direction: column;
             display: flex;
-            column-gap: 16px;
+            column-gap: $font-size-base;
             @include pad {
-                margin-bottom: 36px;
+                margin-bottom: $text-2xl;
             }
         }
         &-row {
             margin-bottom: 100px;
             @include pad {
-                margin-bottom: 64px;
+                margin-bottom: $text-5xl;
             }
             @include mobile {
-                margin-bottom: 48px;
+                margin-bottom: $text-4xl;
             }
         }
         &-list {
             margin-top: 80px;
-            margin-bottom: 48px;
+            margin-bottom: $text-4xl;
             @include pad {
-                margin-top: 48px;
+                margin-top: $text-4xl;
                 margin-bottom: 0;
             }
         }
@@ -61,7 +61,7 @@
             h3 {
                 text-align: center;
                 font-size: 22px;
-                padding-top: 16px;
+                padding-top: $font-size-base;
                 padding-bottom: 8px;
             }
         }
